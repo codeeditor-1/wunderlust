@@ -1,0 +1,227 @@
+/*Jesalina Bautista-Perez*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Start of CSS Here*/
+
+/*Import font styles*/
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Small Screen */
+@media screen and (min-width: 320px) {
+  
+    body {
+        font-size: 14px;
+    }
+
+}
+
+
+/* Header and Main Styles */
+main {
+    padding: 10px; 
+}
+
+#skip {
+    display: none;
+}
+
+#logo {
+    width: 300px;
+}
+
+header {
+    background-image: linear-gradient( to top, #55BCD5, #499BD2);
+    color: black;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: "Molle", cursive;
+    font-size: 35px;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size:medium;
+}
+
+/* Nav Styles */
+nav h2 {
+    visibility: hidden;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin:20px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    padding-bottom: 10px;
+}
+
+nav a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 0;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #F6D64A;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+section {
+    padding: 10px;
+}
+
+/* Majorca and Img styles */
+#intro {
+    ;
+}
+
+#img-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 1em;
+}
+
+/* Plan your Trip styles */
+#plan {
+    background-color: #F6D64A;
+}
+
+#plan img {
+    display: block;
+    width:auto;
+}
+
+#plan section {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:#499BD2;
+    justify-content: center;
+    margin-right:auto;
+}
+
+/* Testimonials Styles */
+#testimonials {
+    
+}
+
+#testimonials section {
+    display: inline-block;
+}
+
+
+/* Destinantion Styles */
+#about {
+    background-color:#499BD2;
+}
+
+#about section {
+    display: inline-block;
+   padding: 20px;
+}
+
+
+/*Form styles Contact us */
+#contact form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+#contact label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.required {
+    color: red;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact select {
+    padding: 10px;
+    width: 50%;
+    border-radius: 0;
+    border: 2px solid #9B26B0;
+}
+
+#contact input[type="submit"] {
+    background-color:#9B26B0;
+    width: 100px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 0;
+    border: none;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #EAEAEA;
+    color: black;
+    line-height: 5em;
+    justify-content: center;
+}
+
